@@ -1,0 +1,135 @@
+.navbar {
+  background-color: #e83e8c !important;
+  width: 320px;
+  min-height: 75px;
+}
+
+.nav-logo {
+  width: 132px;
+  height: 53px;
+  margin-left: 32px;
+}
+
+nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  margin-right: 32px;
+}
+
+.main-title {
+  color: #707070;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.title-section {
+  text-align: center;
+}
+
+.card-box {
+  padding: 0;
+}
+
+.card {
+  width: 238px !important;
+}
+
+.card-img-top {
+  width: 238px;
+  height: 132px;
+}
+
+.card-title {
+  font-size: 16px;
+  color: #373a3c;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #373a3c;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.footer {
+  height: 184px;
+  background-color: #e83e8c;
+}
+
+.footer-img {
+  width: 36px;
+  height: 70px;
+}
+
+.payment-container{
+    display: none;
+}
+
+/* Media Querie para pantalla MD */
+@media (min-width: 576px) {
+  .navbar {
+    width: auto;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 110px;
+  }
+
+  .nav-logo {
+    margin-left: 110px;
+  }
+
+  nav .nav-link {
+    margin-right: 30px;
+  }
+
+  .main-title {
+    font-size: 60px;
+  }
+
+  .card-box {
+    margin-right: 90px;
+  }
+
+  .main-title {
+    margin: 50px 0;
+  }
+
+  .card-title {
+    font-size: 17px;
+  }
+
+  .payment-box {
+    height: 170px;
+    background-color: #17a2b8;
+  }
+
+  .footer-img {
+    width: 53px;
+    height: 100px;
+  }
+
+  .payment-text {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 80px;
+  }
+
+  i {
+    color: white;
+    margin-right: 24px;
+  }
+
+  .payment-container{
+      display: block;
+  }
+}
